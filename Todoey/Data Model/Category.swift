@@ -13,5 +13,4 @@ class Category : Object {
     @objc dynamic var name : String = ""
     //Forward Relationship
     let items = List<Item>()
-    //let array : Array<Int>()
 }
